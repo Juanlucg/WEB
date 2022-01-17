@@ -1,0 +1,12 @@
+#cubo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+#btnControl {
+    display: none;
+}
+#btnControl:checked + label > div {
+    margin-top: 200px;
+}
