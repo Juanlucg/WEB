@@ -9,7 +9,6 @@ body {
     grid-gap: 5px;
     justify-items: center;
     align-items: center;
-    border: black 1px solid;
   }
   
   .item {
