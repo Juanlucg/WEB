@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head >
+  <meta name="viewport" content="initial-scale=1">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Ejercicio1 DWEC</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <a>PULSA DONDE QUIERAS PARA CONOCER LAS COORDENADAS EN LA CONSOLA :)</a>
+    <div class="caja" onclick="position(event)">
+      </div>
+
+</body>
+<script>
+function position(event){
+
+var x = event.clientX;
+
+var y = event.clientY;
+
+var mousePositions = document.getElementById('mousePositions');
+
+console.log('X coords: '+x+', Y coords: '+y);
+
+}
+</script>
+</html>

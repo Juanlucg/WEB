@@ -1,7 +1,7 @@
 body {
     font-family: Verdana, Geneva, sans-serif;
     line-height: 2em;
-    background-color:rgb(204, 241, 253);
+    background-color:#bbe7e6;
   }
   .container {
     display: grid;
@@ -13,9 +13,9 @@ body {
   }
   
   .item {
-    background: rgb(255, 195, 195);
+    background: #bce7bb;
     text-align: center;
-    border: 1px solid rgb(255, 123, 123);
+    border: 1px solid #e8d0bb;
     border-radius: 10px;
     width: 100px;
     height: 50px;
@@ -23,7 +23,8 @@ body {
 
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #bbbce7;
+    border-radius: 10px;
   }
   
   .topnav a {
@@ -42,7 +43,7 @@ body {
   }
   
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #e8d0bb;
     color: white;
   }
   
