@@ -4,6 +4,7 @@
 <head >
   <meta name="viewport" content="initial-scale=1">
   <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
   <title>DIW</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,26 +12,37 @@
 
 <body>
     <div class="topnav" id="myTopnav">
-        <a href="../index.html" class="active">Inicio</a>
+        <a href="../index.html">Inicio</a>
         <a href="../DIW/index.html">DIW</a>
         <a href="../DAW/index.html">DAW</a>
-        <a href="../DWEC/index.html">DWEC</a>
+        <a href="../DWEC/index.html" class="active">DWEC</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
        <h1>Ejercicios DWEC Juan Luis</h1>
-       <div class="container">
-        <a href="Ejercicio1/index.html" class="item">Ejercicio1</a>
-        <a href="Ejercicio2/index.html" class="item">Ejercicio2</a>
-        <a href="Ejercicio3/index.html" class="item">Ejercicio3</a>
-        <a href="Ejercicio4/index.html" class="item">Ejercicio4</a>
-        <a href="Ejercicio5/index.html" class="item">Ejercicio5</a>
-        
-      </div>
+       <div class="fondo">
+        <div class="container">
+          <a href="Ejercicio1/index.html" class="item">Ejercicio1</a>
+          <a href="Ejercicio2/index.html" class="item">Ejercicio2</a>
+          <a href="Ejercicio3/index.html" class="item">Ejercicio3</a>
+          <a href="Ejercicio4/index.html" class="item">Ejercicio4</a>
+          <a href="Ejercicio5/index.html" class="item">Ejercicio5</a> 
+        </div>
+
+       </div>
+       <footer>
+
+        <address>
+      
+          Diseñado por Juan Luis Ceacero Gallego Copyright © 2022 
+      
+        </address>
+      
+      </footer>
 </body>
 <script>
-    function myFunctiona() {
+    function myFunction() {
       var x = document.getElementById("myTopnav");
       if (x.className === "topnav") {
         x.className += " responsive";
