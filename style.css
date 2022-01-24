@@ -41,7 +41,7 @@ h1{
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -69,7 +69,7 @@ address{
   background-color: #224a68;
   border-radius: 5px;
   color: black;
-  margin-top: 82vh;
+  margin-top: 1vh;
 }
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
